@@ -74,7 +74,5 @@ label {
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
-  top: 250px;
-  left: 550px;
+  margin-top: 250px;;
 }

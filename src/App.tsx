@@ -5,8 +5,13 @@ import { useEffect } from 'react';
 import {Quiz} from './Types/QuizTypes';
 import { useState } from 'react';
 import QuestionCard from './Components/QuestionsCard';
+import Grid from '@material-ui/core/Grid';
+
+
 function App() {
   
+
+
   let[quiz, setQuiz] = useState<Quiz[]>([]);
   let[quizQuestion, setQuizQuestion] = useState(0);
   let[score, setScore] = useState(0);
@@ -69,7 +74,15 @@ function App() {
 
   return(
     <div>
-      <button className="start-btn" onClick={startQuiz}>Start Quiz</button>
+        <Grid container spacing={3}>
+        <Grid item xs={4} sm={5}>
+        </Grid>
+        <Grid item xs={4} sm={2}>
+        <button className="start-btn" onClick={startQuiz}>Start Quiz</button>
+        </Grid>
+        <Grid item xs={4} sm={5}>
+        </Grid>
+    </Grid>
     </div>
   )
 }
