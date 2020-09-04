@@ -1,0 +1,80 @@
+.header {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    opacity: 0.8;
+}
+.radio-item {
+    background: #e08926;
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 100px;
+}
+input[type="radio"]{
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #dbdbdb;
+  border-radius: 100%;
+  float: right;
+  margin-top: -3px;
+}
+
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: #dbdbdb;
+}
+label {
+    color: white;
+    width: 80%;
+}
+.next-btn {
+    background: #d87708;
+    border-radius: 100px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    color: white;
+    border: 0px;
+    float: right;
+    margin-right: 20px;
+}
+.loading-state {
+  text-align: center;
+  color: #d87708;
+  font-size: 30px;
+}
+.result {
+    text-align: center;
+    font-size: 35px;
+    opacity: 0.8;
+}
+.result h2 {
+  color: #d87708;
+  font-weight: 900;
+
+}
+.result p {
+  opacity: 0.8;
+}
+
+.start-btn {
+  background: #d87708;
+  border-radius: 100px;
+  padding: 20px 70px;
+  color: white;
+  border: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  left: 550px;
+}
