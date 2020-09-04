@@ -16,7 +16,6 @@ function App() {
   useEffect( ()=> {
     const fetchData = async ()=> {
       const questions:Quiz[] = await QuestionsService(5,'easy');
-      console.log(questions);
       setQuiz(questions);
     }
     fetchData();
