@@ -1,13 +1,14 @@
 # QuizApp React-Typescript
  A tiny quiz app using Typescript and React
-#Languages Used
+# Languages Used
  Html
  Css
  React
  Typescript
-#libraries
+# libraries
  React Bootstrap
-#Deployement
+# Deployement
  Surge using CI / CD
-#App link on surge
+# App link on surge
+
 http://typescriptquizapp.surge.sh/
