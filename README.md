@@ -1,4 +1,4 @@
-https://ibb.co/B6dJN1V
+<img src="https://ibb.co/B6dJN1V" />
 # QuizApp React-Typescript
  A tiny quiz app using Typescript and React
 # Languages Used
