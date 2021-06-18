@@ -1,4 +1,6 @@
-<a href="https://ibb.co/B6dJN1V"><img src="https://i.ibb.co/B6dJN1V/image.png" alt="image" border="0"></a># QuizApp React-Typescript
+<a href="https://ibb.co/B6dJN1V"><img src="https://i.ibb.co/B6dJN1V/image.png" alt="image" border="0" height="400" width="400"></a>
+
+# QuizApp React-Typescript
  A tiny quiz app using Typescript and React
 # Languages Used
  Html
